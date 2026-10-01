@@ -1,0 +1,17 @@
+{
+  "name": "playwright-qa-practice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Self-graded Playwright practice tasks for QA assessment prep — runs entirely in GitHub Codespaces, no local install.",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "solutions": "playwright test solutions/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^26.6.3",
+    "typescript": "^5.6.0"
+  }
+}
